@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "graphology": "^0.17.1",
+    "mnemonist": "^0.36.1",
     "nodemon": "^2.0.4"
   }
 }
