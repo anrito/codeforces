@@ -15,6 +15,7 @@ function isPalendrome(str) {
 var longestPalindrome = function (s) {
   if (isPalendrome(s)) return s;
   let longeestPallendrome = "";
+
   for (let i = 0; i < s.length; i++) {
     for (let j = s.length - 1; j > i; j--) {
       let pal = s.substr(i, j);
@@ -24,6 +25,7 @@ var longestPalindrome = function (s) {
       }
     }
   }
+
   return longeestPallendrome;
 };
 
